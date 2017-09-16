@@ -2,7 +2,6 @@ package testcases;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class TestCase_002 {
 

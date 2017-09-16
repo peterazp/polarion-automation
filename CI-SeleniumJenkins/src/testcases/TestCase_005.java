@@ -3,7 +3,7 @@ package testcases;
 import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestCase_003 {
+public class TestCase_005 {
 
 	@Test
 	public void testcase1()
