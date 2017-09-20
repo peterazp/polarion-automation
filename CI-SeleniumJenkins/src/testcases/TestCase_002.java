@@ -14,7 +14,7 @@ public class TestCase_002 {
 		 * @wi.implements HomeAutomation2000/HA-440 It should say facebook
 		 */
 		driver.get("http://facebook.com");
-		driver.findElementById("email").sendKeys("Holla");
+		driver.findElementById("email").sendKeys("Hollla");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
 		
