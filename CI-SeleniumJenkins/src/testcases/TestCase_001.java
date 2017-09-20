@@ -15,7 +15,7 @@ public class TestCase_001 {
 		 */
 		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
-		driver.findElementById("pass").sendKeys("Nils");
+		driver.findElementById("pass").sendKeys("Stefan");
 		driver.quit();
 		
 	}
