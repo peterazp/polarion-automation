@@ -13,7 +13,7 @@ public class TestCase_002 {
 		/**
 		 * @wi.implements HomeAutomation2000/HA-440 It should say facebook
 		 */
-		driver.get("http://facebook.com");
+		driver.get("http://дцедцеце.com");
 		driver.findElementById("email").sendKeys("Hej");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
