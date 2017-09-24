@@ -13,7 +13,7 @@ public class TestCase_002 {
 		/**
 		 * @wi.implements HomeAutomation2000/HA-536 Implementing Chrome driver
 		 */
-		driver.get("http://צהצצוהצהצו.com");
+		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
