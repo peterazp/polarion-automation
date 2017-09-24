@@ -11,7 +11,7 @@ public class TestCase_002 {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
 		/**
-		 * @wi.implements HomeAutomation2000/HA-536 Implementing chrome driver
+		 * @wi.implements HomeAutomation2000/HA-536 Implementing Chrome driver
 		 */
 		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
