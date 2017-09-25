@@ -17,6 +17,8 @@ public class TestCase_002 {
 		driver.findElementById("email").sendKeys("Hello");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
-		
+		/**
+		 * @wi.implements HomeAutomation2000/HA-550 Implementing Function B
+		 */
 	}
 }
