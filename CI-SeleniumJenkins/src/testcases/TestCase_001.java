@@ -11,7 +11,7 @@ public class TestCase_001 {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
 		/**
-		 * @wi.implements HomeAutomation2000/HA-430 It should say facebook
+		 * @wi.implements HomeAutomation2000/HA-550 Implementing Function A
 		 */
 		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
