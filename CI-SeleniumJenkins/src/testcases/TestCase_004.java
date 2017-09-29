@@ -14,7 +14,7 @@ public class TestCase_004 {
 		
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
-		driver.get("http://jknkjkjhkjhkjhkjhkjhkjhk.com");
+		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Aha");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
