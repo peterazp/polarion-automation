@@ -9,7 +9,7 @@ public class TestCase_005 {
 	public void testcase1()
 	{
 		/**
-		 * @wi.implements HomeAutomation2000/HA-430 It should say facebook
+		 * @wi.implements HomeAutomation2000/HA-430 It should say facebookk
 		 */
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
