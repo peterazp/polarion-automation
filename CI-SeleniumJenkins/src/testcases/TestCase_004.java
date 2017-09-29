@@ -9,7 +9,7 @@ public class TestCase_004 {
 	public void testcase1()
 	{	
 		 /**
-		 * @wi.implements HomeAutomation2000/HA-440 Is this working?
+		 * @wi.implements HomeAutomation2000/HA-440 Is this working
 		 */
 		
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
