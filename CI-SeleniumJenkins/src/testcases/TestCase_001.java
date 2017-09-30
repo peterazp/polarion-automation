@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestCase_001 {
-// Add new comment here or here
+// Add new comment here or here.
 	@Test
 	public void testcase1()
 	{
