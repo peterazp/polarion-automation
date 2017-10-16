@@ -7,13 +7,13 @@ public class TestCase_002 {
 	// Adding comment here to simulate update to code update
 	@Test
 	/**
-	 * @wi.implements HomeAutomation2000/HA-550 Implementing Function A
+	 * @wi.implements HomeAutomation2000/HA-554 Implementing Function A
 	 */
 	public void testcase1()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
-		driver.get("http://llölå.com");
+		driver.get("http://facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
