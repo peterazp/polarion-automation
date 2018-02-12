@@ -11,10 +11,10 @@ public class TestCase_001 {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
 		/**
-		 * @wi.implements HomeAutomation2000/HA-601 Implementing Function D
+		 * @wi.implements HomeAutomation2000/HA-601 Implementing WebApp Function D
 		 */
 		driver.get("http://facebook.com");
-		driver.findElementById("email").sendKeys("Hello");
+		driver.findElementById("email").sendKeys("Hej");
 		driver.findElementById("pass").sendKeys("Pjotr");
 		driver.quit();
 		
