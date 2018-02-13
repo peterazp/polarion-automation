@@ -9,7 +9,7 @@ public class TestCase_003 {
 	public void testcase1()
 	{
 		/**
-		 * @wi.implements HomeAutomation2000/HA-550 Testing RT
+		 * @wi.implements HomeAutomation2000/HA-606 Testing RT
 		 */
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver  = new ChromeDriver();
@@ -17,9 +17,7 @@ public class TestCase_003 {
 		driver.findElementById("email").sendKeys("h4j");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
-		/**
-		 * @wi.implements HomeAutomation2000/HA-550 Implementing Function B
-		 */
+	
 		
 	}
 }
